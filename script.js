@@ -75,7 +75,7 @@ async function checkServiceStatus() {
     }
 }
 
-  //APIs check and display 
+  //APIs check and display
 async function fetchAndDisplayAPIs() {
     // Fetch and display joke
     try {
