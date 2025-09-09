@@ -1,9 +1,9 @@
   // Websites to check if running
 const services = [
     { name: "Barclays Bank", url: "https://www.barclays.co.uk" },
-    { name: "HSBC", url: "https://www.hsbc.co.uk" },
-    { name: "Halifax", url: "https://www.halifax.co.uk" },
-    { name: "NatWest", url: "https://www.natwest.com" },
+    { name: "HSBC Bank", url: "https://www.hsbc.co.uk" },
+    { name: "Halifax Bank", url: "https://www.halifax.co.uk" },
+    { name: "NatWest Bank", url: "https://www.natwest.com" },
     { name: "Santander UK", url: "https://www.santander.co.uk" },
     { name: "Metro Bank", url: "https://www.metrobankonline.co.uk" }
 ];
