@@ -80,7 +80,9 @@ function updateServiceCard(service, isOperational) {
         card.id = `service-${service.id}`;
         card.className = 'service-card';
         card.innerHTML = `
-            <span>${service.name}</span>
+            <a href="${service.url}" target="_blank" rel="noopener noreferrer">
+                <span>${service.name}</span>
+            </a>
             <div class="status-indicator"></div>
         `;
         statusContainer.appendChild(card);
