@@ -70,7 +70,7 @@ async function fetchAndDisplayAPIs() {
 
 // --- Card Update Utility Function ---
 // This function updates an existing service card or creates a new one if it doesn't exist
-// This approach prevents the 'blinking' effect by not clearing the entire container on each refresh
+// This approach does not clear the entire container on each refresh
 function updateServiceCard(service, isOperational) {
     let card = document.getElementById(`service-${service.id}`);
     
